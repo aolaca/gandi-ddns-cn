@@ -6,7 +6,7 @@
 set -f
 
 API="https://dns.api.gandi.net/api/v5/"
-IP_SERVICE="http://me.gandi.net"
+IP_SERVICE="http://ip.3322.net"
 
 if [[ -z "${FORCE_IPV4}" ]]; then
   WAN_IPV4=$(curl -s4 ${IP_SERVICE})
