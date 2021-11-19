@@ -1,7 +1,7 @@
 FROM alpine:3.10.1
 LABEL maintainer="jbbodart@yahoo.com"
 
-ENV REFRESH_INTERVAL=60
+ENV REFRESH_INTERVAL=120
 ENV SET_IPV4="yes"
 ENV SET_IPV6="no"
 ENV TTL=300
